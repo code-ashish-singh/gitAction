@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Hello , GitHub Action chal gaya!"
+
+      - name : Print Data
+        run : date
+      - name : Show directory
+        run : pwd
+      - name : List
+        run : ls -la
